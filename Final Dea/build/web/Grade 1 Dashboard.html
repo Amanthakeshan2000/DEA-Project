@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade-One</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <!-- CSS only -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
+</head>
+<body>
+
+ <!-- navigation bar -->
+<div class="a11">
+ <nav style="position: fixed;"  class="navbar navbar-expand-lg navbar-light navbar-dark navbar-custom fixed-top" >
+
+    <div id="div1">
+          <select style=" font-size: 18px; width: 150px;" name="" id="div2">
+            <option value="volvo">ENGLISH</option>
+            <option value="saab">සිංහල</option>
+            <option value="mercedes">TAMIL</option>
+           
+          </select>
+         <span style="color: #FFFF;">&nbsp; |</span> 
+          <a class="" href="#" style="text-decoration: none;"> &nbsp;<i class="fab fa-google job d-none d-sm-none d-md-inline d-lg-inline" style="color: #FFFF;"> &nbsp;Pheonix@gmail.com</i></a>
+          <!-- <a href="#">amanthakeshandanujaya@gmail.com</a> -->
+        
+          <select class="" style=" position:absolute; left:80%; width: 220px; margin-left: -75px; font-size: 18px;" name="" id="div2">
+            <option value="volvo">SELECT USER TYPE</option>
+            <option value="volvo">Admin</option>
+            <option value="saab">Grade 01</option>
+            <option value="mercedes">Grade 02</option>
+        </select>
+       <!-- <span style="color: #FFFF;">&nbsp; |</span>  -->
+        <!-- <a href="#" style="text-decoration: none;"> &nbsp;<i class="fab fa-google" style="color: #FFFF;"> &nbsp;amanthakeshandanujaya@gmail.com</i></a> -->
+        <!-- <a href="#">amanthakeshandanujaya@gmail.com</a> -->
+    
+    </div>
+    <div class="container-fluid"  style="position: relative; top:10px;">
+        <a class="navbar-brand text-whight" href="#" ><img src="./DEAImages/logo111.png"  width="250vw" height="60vw"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon " ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ul_custom">
+              <li class="nav-item">
+                  <button type="button" id="Home" class="btn_custom " onclick="Home()">Home</button>
+              </li>
+              <li class="nav-item"> 
+                  <button type="button" id ="Service" class="btn_custom" onclick="Service()">Contact Us</button>
+              </li>
+              <li class="nav-item">
+                  <button type="button" id="Register" class="btn_custom " onclick="Register()">Book</button>
+              </li>
+              <li class="nav-item">
+                  <button type="button" id="Log_In" class="btn_custom">Information</button>
+              </li>
+              <!-- <li class="nav-item">
+                  <button type="button" class="btn_custom" id="About_us">About Us</button>
+                </li> -->
+          </ul>
+        </div>
+      </div>
+  
+
+
+
+    </nav>
+
+</div>
+
+<div class="b11">
+
+<main class="container">
+    <div class=" row pt-5">
+        <div style="position: fixed; border-radius: 30px; left: 50px; height: 80%;" class="container-fluid sidebar col-3">
+            <div class="iBar " >
+                <center><img src="./DEAImages/men111.png" alt=""></center>
+            </div>
+            <div class="iBar1 ">
+                <span style="background-color: #40B7FB; width: 100%;">Grade 01</span>
+                <h4 >Employee Name</h4>
+                <p>employee@gmail.com</p>
+                <hr class="aaaa" width="80px">
+            </div>
+            
+            <div class="iBar2">
+                <center><button type="button" class="btn btn-primary btn-lg">View Profile</center>
+           
+            </div>
+
+          <div class="iBar4">
+            <center><button type="button" class="iBar7 mt-2 btn btn-outline-light btn-md">Dashboard</center>
+                <center><button type="button" class="iBar7 mt-2 btn btn-outline-light btn-md">Messages</center>
+                    <center><button type="button" class="iBar7 mt-2 btn btn-outline-light btn-md">Flight Information</center>
+                        <center><button type="button" class="iBar7 mt-2 btn btn-outline-light btn-md">Tickets Information</center>
+                            <center><button type="button" class="iBar7 mt-2 btn btn-outline-light btn-md">Users Information</center>
+          </div>
+            
+           
+        </div>
+        <div style="position: relative; left:30%;" class="col-9">
+      
+            <center>
+            <div class="a0 row">
+                <div class="a3 row row-cols-2 row-cols-lg-5 g-2 g-lg-3"  >
+                    <div class="col">
+                        <div class="a2 p-3 border ">
+                            <h5 style="text-align: center;">Total Flights</h5>
+                            <br>
+                            <p style="text-align: center;">12</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="a2 p-3 border ">
+                            <h5 style="text-align: center;">Canceled Flights</h5>
+                            <br>
+                            <p style="text-align: center;">12</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="a2 p-3 border ">
+                            <h5 style="text-align: center;">Today Registations</h5>
+                            <p style="text-align: center;">12</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="a2 p-3 border ">
+                            <h5 style="text-align: center;">Today Sale Tickets</h5>
+                            <p style="text-align: center;">12</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </center>
+            <br>
+
+<span class="a9"><b>Flight Time Table</b></span>
+
+
+            <div class="row pt-4">
+                <div class="container p-5" style="background: #ECF7FE; border-radius: 15px;">
+                    <div class="row">
+                        <div class="input-group p-2" id="search-bar-div2" style="background:  #BAC0F8; border-radius: 10px;">
+                            <button class="btn btn-primary" type="button">Search</button>
+                            <input type="text" class="form-control">
+                            <button class="btn btn-primary" type="button">View Flight Id's</button>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="container overflow-hidden text-center">
+                            <div class="a4 justify-content-center align-items-end d-flex flex-row">
+                                <div class="">
+                                    <p>From</p>
+                                    <div style="background: rgba(255, 255, 255, 0.5); border-radius: 10px; text-align: center; padding: 0px 10px;">
+                                        <h3>Sri Lanka</h3>
+                                        <p>Bandaranayake International Airport</p>
+                                    </div>
+                                </div>
+                                <div class="a5">
+                                    <button style="border-radius: 50px; position: relative; top: -27px;">
+                                        <span class="material-symbols-outlined p-1">
+                                            sync_alt
+                                        </span>
+                                    </button>
+                                </div>
+
+                                <div class="">
+                                    <p>To</p>
+                                    <div style="background: rgba(255, 255, 255, 0.5); border-radius: 10px; text-align: center; padding: 0px 10px;">
+                                        <h3>India</h3>
+                                        <p>Bandaranayake International Airport</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="justify-content-center align-items-end d-flex flex-row">
+                            <button type="button" class="btn btn-primary btn-lg">Serach
+
+                                </span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="a8 row pt-4">
+                        <div class="container">
+                            <p class="a5" style="background-color:#169fef;"> Sri Lanka > India </p>
+                            <!-- <div class="row">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Flight Id</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Time</th>
+                                        <th scope="col">Time</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><input type="flightid" class="form-control" id="exampleFormControlInput1" placeholder="LKI22#399"></td>
+                                        <td><input type="fdate" class="form-control" id="exampleFormControlInput2" placeholder="2022/02/22"></td>
+                                        <td><input type="ftime" class="form-control" id="exampleFormControlInput3" placeholder="9.30 am"></td>
+                                        <td><input type="fedate" class="form-control" id="exampleFormControlInput4" placeholder="10.30 am"></td>
+
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+
+                                        <td><input type="flightid" class="form-control" id="exampleFormControlInput5" placeholder="LKI22#400"></td>
+                                        <td><input type="fdate" class="form-control" id="exampleFormControlInput6" placeholder="2022/02/22"></td>
+                                        <td><input type="ftime" class="form-control" id="exampleFormControlInput7" placeholder="11.30 am"></td>
+                                        <td><input type="fedate" class="form-control" id="exampleFormControlInput8" placeholder="12.30 pm"></td>
+
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="flightid" class="form-control" id="exampleFormControlInput9" placeholder="LKI22#401"></td>
+                                        <td><input type="fdate" class="form-control" id="exampleFormControlInput10" placeholder="2022/02/23"></td>
+                                        <td><input type="ftime" class="form-control" id="exampleFormControlInput11" placeholder="1.30 pm"></td>
+                                        <td><input type="fedate" class="form-control" id="exampleFormControlInput12" placeholder="2.30 pm"></td>
+
+                                        <td></td>
+                                        <td></td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div> -->
+                            <br><br>
+                           <span class="a6" style="background-color:  #a7dbfa; color: #000000btn-outline-light;"> Up Coming Flight</span> 
+                       
+<br><br>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Flight Id</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col"></th>
+                                    <th scope="col"></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput14" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput15" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput16" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput17" placeholder="name@example.com"></td>
+
+                                    <td><button class="btn btn-warning" type="button">Update</button></td>
+                                    <td><button class="btn btn-danger" type="button">Cancel</button></td>
+                                </tr>
+                                <tr>
+
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput18" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput19" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput20" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput21" placeholder="name@example.com"></td>
+
+                                    <td><button class="btn btn-warning" type="button">Update</button></td>
+                                    <td><button class="btn btn-danger" type="button">Cancel</button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput22" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput23" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput24" placeholder="name@example.com"></td>
+                                    <td><input type="email" class="form-control" id="exampleFormControlInput25" placeholder="name@example.com"></td>
+
+                                    <td><button class="btn btn-warning" type="button">Update</button></td>
+                                    <td><button class="btn btn-danger" type="button">Cancel</button></td>
+
+                                </tr>
+                                
+                                </tbody>
+                            </table>
+                            <span class="text-light a7" style="background-color:  #000000;"> + Add Flight</span> 
+                        </div>
+                        </div>
+
+     
+                    </div>              
+                </div>
+
+<!-- --------------Tickets information-------------------- -->
+
+<br><br>
+<span class="a9"><b> Tickets information</b></span>
+
+
+            <div class="row pt-4">
+                <div class="container p-5" style="background: #ECF7FE; border-radius: 15px;">
+                    
+
+
+
+                    <div class="a8 row pt-4">
+                        <div class="container">
+                            <div class="">
+                                <button type="button" class="btn btn-primary">New Tickets</button>
+                                <button type="button" class="btn btn-secondary">Old Tickets</button>
+                                <button type="button" class="btn btn-secondary">Return Tickets</button>
+                            </div>
+<br>
+                            <div class="row">
+                                <div class="a1 input-group p-2" id="search-bar-div" style="background: #D2D6FD">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                    <input type="text" class="form-control" >
+                                </div>
+                            </div>
+<br>
+                            <div class="row">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Tickets ID</th>
+                                        <th scope="col">Flight  ID</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Time</th>
+                                        <th scope="col">Duration Time</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput4" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput4" placeholder="name@example.com"></td>
+                                        <td><button class="btn btn-warning" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger" type="button">Cancel</button></td>
+                                        
+                                    </tr>
+                                    <tr>
+
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput5" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput6" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput7" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput8" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput4" placeholder="name@example.com"></td>
+                                        <td><button class="btn btn-warning" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger" type="button">Cancel</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput9" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput10" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput11" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput12" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput4" placeholder="name@example.com"></td>
+                                        <td><button class="btn btn-warning" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger" type="button">Cancel</button></td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br><br>
+                          
+                                           
+               
+                          
+                        </div>
+                        </div>
+
+                        <span class="text-light a7" style="background-color:  #000000;"> + Add Ticket</span>
+     
+                    </div>              
+                </div>
+<!-- ---------------------------------- -->
+
+
+
+
+<!-- --------------user information-------------------- -->
+
+<br><br>
+<span class="a9"><b> User information</b></span>
+
+
+            <div class="row pt-4">
+                <div class="container p-5" style="background: #ECF7FE; border-radius: 15px;">
+                    
+
+
+
+                    <div class="a8 row pt-4">
+                        <div class="container">
+                            <!-- <div class="">
+                                <button type="button" class="btn btn-primary">Normal Users</button>
+                     
+                                
+                            </div> -->
+<br>
+                            <div class="row">
+                                <div class="a1 input-group p-2" id="search-bar-div" style="background: #D2D6FD">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                    <input type="text" class="form-control" >
+                                </div>
+                            </div>
+<br>
+                            <div class="row">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Status</th>
+                                      
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput2" placeholder=""></td>
+                                        <td><button class="btn btn-info form-control" type="button">account</button></td>
+                                        <td><button class="btn btn-info form-control" type="button">IP</button></td>
+                                        <td><button class="btn btn-warning form-control" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger form-control" type="button">Remove</button></td>
+                                        
+                                    </tr>
+                                    <tr>
+
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput2" placeholder=""></td>
+                                        <td><button class="btn btn-info form-control" type="button">account</button></td>
+                                        <td><button class="btn btn-info form-control" type="button">IP</button></td>
+                                        <td><button class="btn btn-warning form-control" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger form-control" type="button">Remove</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput2" placeholder=""></td>
+                                        <td><button class="btn btn-info form-control" type="button">account</button></td>
+                                        <td><button class="btn btn-info form-control" type="button">IP</button></td>
+                                        <td><button class="btn btn-warning form-control" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger form-control" type="button">Remove</button></td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br><br>
+                          
+                                           
+                            <span class="text-light a7" style="background-color:  #000000;"> + Add User</span>
+                          
+                        </div>
+                        </div>
+
+
+     
+                    </div>              
+                </div>
+<!-- ---------------------------------- -->
+
+<!-- --------------Staff information-------------------- -->
+<!-- 
+<br><br>
+<span class="a9"><b>Staff information</b> </span>
+
+
+            <div class="row pt-4">
+                <div class="container p-5" style="background: #ECF7FE; border-radius: 15px;">
+                    
+
+
+
+                    <div class="a8 row pt-4">
+                    <div class="container">
+            
+<br>
+                            <div class="row">
+                                <div class="a1 input-group p-2" id="search-bar-div" style="background: #D2D6FD">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                    <input type="text" class="form-control" >
+                                </div>
+                            </div>
+<br>
+                            <div class="row">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Status</th>
+                                      
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput2" placeholder=""></td>
+                                        <td><button class="btn btn-info form-control" type="button">account</button></td>
+                                        <td><button class="btn btn-info form-control" type="button">IP</button></td>
+                                        <td><button class="btn btn-warning form-control" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger form-control" type="button">Remove</button></td>
+                                        
+                                    </tr>
+                                    <tr>
+
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput2" placeholder=""></td>
+                                        <td><button class="btn btn-info form-control" type="button">account</button></td>
+                                        <td><button class="btn btn-info form-control" type="button">IP</button></td>
+                                        <td><button class="btn btn-warning form-control" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger form-control" type="button">Remove</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"></td>
+                                        <td><input type="email" class="form-control" id="exampleFormControlInput2" placeholder=""></td>
+                                        <td><button class="btn btn-info form-control" type="button">account</button></td>
+                                        <td><button class="btn btn-info form-control" type="button">IP</button></td>
+                                        <td><button class="btn btn-warning form-control" type="button">Update</button></td>
+                                        <td><button class="btn btn-danger form-control" type="button">Remove</button></td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br><br>
+                          
+                                           
+                            <span class=" a7" style="background-color:  #000000;"> Add Staff</span>
+                          
+                        </div>
+                        </div>
+
+
+     
+                    </div>              
+                </div> -->
+<!-- ---------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        
+
+
+        </div>
+    
+
+</main>
+</div>
+
+</body>
+
+<style>
+.sidebar{
+    background-color: #223452;
+    height: 750px;
+    position: relative;
+    left: -50px;
+   
+    background-attachment: fixed;
+    border-radius: 50px;
+
+}
+
+
+
+
+.b11{
+
+    position:relative;
+    top: 100px;
+ }
+/* 
+.a11{
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+ 
+} */
+
+
+    /* .a11{
+        background-attachment: fixed;
+    } */
+    .a1{
+        border-radius: 10px;
+    }
+
+    .a2{
+        border-radius: 15px;
+        background-color:  #40B7FB;
+    }
+    .a4{
+        background-color: #D2D6FD;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .a5{
+        width: 200px;
+text-align: center;
+color: #FFFF;
+border-radius: 20px;
+
+    }
+.a6{
+    border-radius: 20px;
+    position:absolute;
+   width: 200px;
+   text-align: center;
+   color: #FFFF;
+}
+.a7{
+    position: absolute;
+ 
+
+   border-radius: 20px;
+    position:absolute;
+   width: 200px;
+   text-align: center;
+   color: #FFFF;
+}
+
+.a8{
+    background-color: #FFFF;
+    border-radius: 10px;
+}
+
+.a9{
+ 
+    background-color: rgb(253, 253, 0);
+    position:absolute;
+    width: 180px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.a3{
+   
+    column-count: 3;
+  column-gap: 50px;
+  width: 100%;
+}
+
+/* --------------------- */
+
+
+      /* --------------------------------- */
+     
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------       */
+
+
+
+.navbar-custom {
+    background:  #ffffff ;
+    box-shadow: 1px 5px 10px rgba(0, 255, 255, 0.1);
+    height:120px;
+    position:absolute;
+   
+  
+   
+}
+
+.btn_custom {
+  margin: 5px 10px;
+  border:0px;
+  background: #ffffff;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  width: 130px;
+  padding: 0px 5px 0px 5px;
+  font-family: 'Rhodium Libre', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* line-height: 25px; */
+  text-align: center;
+  color: #000000;
+  height:100%;
+  transition: 0.3s;
+ 
+}
+
+
+.btn_custom:hover {
+  background-color: #040D3D;
+  color:white;
+}
+
+.custom-active {
+  background-color: #040D3D;
+  color:white;
+  border-color: #040D3D;
+}
+
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive;;
+  font-style: normal; 
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: black;
+}
+
+    
+        
+/* ---------------------------------------       */
+        
+    
+        
+ 
+
+/* ---------------------------------------------- */
+    #div1{
+      background-color: #081878;
+      position: absolute;
+      width: 100%;
+      height: 40px;
+      left: 0px;
+      top: 0px;
+
+    }    
+        
+ #div2{
+  width: 10%;
+  font-size: 13px;
+  background-color: #081878;
+  color: #FFFFFF;
+ margin-left: 20px;
+ margin-top: 6px;
+ border-radius: 50px;
+ text-align: center;
+  }      
+        
+        
+        
+        
+        
+       .iBar{
+        position: relative;
+        top: 30px;
+        
+       } 
+    
+       .iBar1{
+        position: relative;
+        color: #FFFFFF;
+        top: 40px;
+        text-align: center;
+       }
+       .iBar2{
+        width: auto;
+       
+        position: relative;
+        top: 40px;
+       }
+
+.iBar4{
+    position: relative;
+ 
+    top: 60px;
+
+ 
+   
+}
+
+.iBar7{
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+ 
+</style>
+
+
+</html>
